@@ -8,7 +8,8 @@
   margin-right: auto !important;
 }
 
-.yaya {
+/* YAYA Card */
+.yaya-card {
   margin-left: -1rem;
   margin-right: -1rem;
   display: flex;
@@ -85,10 +86,10 @@
   color: rgba(17, 24, 39, 1);
 }
 
+/* END YAYA Card */
 
-
-
-.card {
+/* PIZZA Card */
+.pizza-card {
   overflow: visible;
   width: 190px;
   height: 254px;
@@ -147,7 +148,7 @@
   gap: 30px;
 }
 
-.card:hover .content {
+.pizza-card:hover .content {
   transform: rotateY(180deg);
 }
 
@@ -259,3 +260,4 @@
     transform: translateY(0px);
   }
 }
+/* END PIZZA Card */
